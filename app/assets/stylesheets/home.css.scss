@@ -7,9 +7,61 @@ body{
 		font-style: normal;
 	}
 
+	a{
+		text-decoration: none;
+	}
+
+	h1,h2,h3,h4,h5{
+		font-family: 'Neutra Text' !important;
+	}
+
+	h2{
+		font-weight: 100;
+		margin-bottom: 30px;
+	}
+
+	h4{
+		color: black;
+		font-weight: 300;
+		font-size: 12pt;
+	}
+
+	h5{
+		font-weight: 300;
+		font-size: 100;
+		color: black;
+	}
+
+	hr{
+		border-top: 1.5px solid black;
+	}
+
+	hr.producto{
+		margin-bottom: 5px;
+		margin-top: 5px;
+		border: 1px dotted grey;
+	}
+
+	hr.coleccion{
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.menu-top{
+		padding-top: 125px;
+	}
+
+	.navbar{
+		margin-bottom: 0px;
+	}
+
 	ul.navbar-nav{
 		li{
 			width: 14.2%;
+
+			a{
+				color: black;
+			}
 		}
 		font-family: 'Neutra Text' !important;
 	}
@@ -25,6 +77,6 @@ body{
 	}
 
 	.logo{
-		width: 150px;
+		width: 180px;
 	}
 }
