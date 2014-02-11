@@ -89,4 +89,27 @@ body{
 	.logo{
 		width: 180px;
 	}
+
+	h3.manifesto-title{
+		font-size: 14pt;
+	}
+
+	.manifesto{
+		border-right: 2px solid;
+		margin-top: 35px;
+		margin-bottom: 35px;
+		font-family: 'Neutra Text';
+		font-size: 10.5pt;
+		padding-right: 30px;
+	}
+
+	.rootandstories{
+		margin-top: 35px;
+		margin-bottom: 35px;
+		text-transform: uppercase;
+		font-family: 'Neutra Text';
+		font-size: 12pt;
+		padding-left: 40px;
+	}
+
 }
