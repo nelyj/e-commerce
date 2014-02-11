@@ -1,4 +1,12 @@
 body{
+
+	padding-top: 180px;
+
+	.navbar-inverse{
+		background-color: white;
+		border: 0px solid white;
+	}
+
 	@font-face {
 		font-family: 'Neutra Text';
 		src: url('/assets/NeutraText-Book.eot');
