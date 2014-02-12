@@ -23,22 +23,57 @@ body{
 	.image-1, .image-2, .image-3, .image-4{
 		width: 275px;
 		height: 278px;
+		.content{
+			display: none;
+		}
 	}
 
 	.image-1{
 		background: url('halur.png') no-repeat;
+		&:hover{
+			.content{
+				background-color: rgba(255, 255, 255, 0.8);
+				display: block;
+				width: 275px;
+				height: 278px;
+			}
+		}
 	}
 
 	.image-2{
 		background: url('ckelar.png') no-repeat;
+		&:hover{
+			.content{
+				background-color: rgba(255, 255, 255, 0.8);
+				display: block;
+				width: 275px;
+				height: 278px;
+			}
+		}
 	}
 
 	.image-3{
 		background: url('huntur.png') no-repeat;
+		&:hover{
+			.content{
+				background-color: rgba(255, 255, 255, 0.8);
+				display: block;
+				width: 275px;
+				height: 278px;
+			}
+		}
 	}
 
 	.image-4{
 		background: url('caur.png') no-repeat;
+		&:hover{
+			.content{
+				background-color: rgba(255, 255, 255, 0.8);
+				display: block;
+				width: 275px;
+				height: 278px;
+			}
+		}
 	}
 
 
