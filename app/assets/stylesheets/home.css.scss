@@ -19,6 +19,31 @@ body{
 		text-decoration: none;
 	}
 
+
+	.image-1, .image-2, .image-3, .image-4{
+		width: 275px;
+		height: 278px;
+	}
+
+	.image-1{
+		background: url('halur.png') no-repeat;
+	}
+
+	.image-2{
+		background: url('ckelar.png') no-repeat;
+	}
+
+	.image-3{
+		background: url('huntur.png') no-repeat;
+	}
+
+	.image-4{
+		background: url('caur.png') no-repeat;
+	}
+
+
+
+
 	.more{
 		color: #6365a0;
 		font-weight: 200;
