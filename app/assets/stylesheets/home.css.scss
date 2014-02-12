@@ -64,6 +64,10 @@ body{
 		padding-top: 125px;
 	}
 
+	.menu-top-scroll{
+		padding-top: 27px;
+	}
+
 	.navbar{
 		margin-bottom: 0px;
 	}
@@ -105,10 +109,16 @@ body{
 	}
 
 	.logo-two{
-		visibility: hidden;
+		background: url('logos.svg') no-repeat;
+		width: 230px;
+		height: 60px;
 	}
 
 	.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+		color: black;
+	}
+
+	.navbar-inverse .navbar-nav > li > a{
 		color: black;
 	}
 
