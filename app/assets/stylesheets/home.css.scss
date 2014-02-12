@@ -9,8 +9,8 @@ body{
 
 	@font-face {
 		font-family: 'Neutra Text';
-		src: url('/assets/NeutraText-Book.eot');
-		src: local('☺'), url('/assets/NeutraText-Book.woff') format('woff'), url('fonts/NeutraText-Book.ttf') format('truetype'), url('fonts/NeutraText-Book.svg') format('svg');
+		src: url-font('/assets/NeutraText-Book.eot');
+		src: local('☺'), url-font('/assets/NeutraText-Book.woff') format('woff'), url('fonts/NeutraText-Book.ttf') format('truetype'), url-font('fonts/NeutraText-Book.svg') format('svg');
 		font-weight: normal;
 		font-style: normal;
 	}
