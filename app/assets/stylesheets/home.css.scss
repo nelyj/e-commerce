@@ -141,7 +141,12 @@ body{
 		}
 	}
 
-
+	.filosofia, .proceso{
+		overflow: hidden;
+		width: 100%;
+		margin-top:15px;
+		margin-bottom: 15px;
+	}
 
 
 	.more{
@@ -151,11 +156,13 @@ body{
 
 	h1,h2,h3,h4,h5{
 		font-family: 'Neutra Text' !important;
+
 	}
 
 	h2{
 		font-weight: 100;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
+		margin-top: 30px;
 	}
 
 	h4{
