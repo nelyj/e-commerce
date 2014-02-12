@@ -1,3 +1,13 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+$(document).ready ->
+	$(window).scroll ->
+		if $(window).scrollTop() >= 180
+			console.log ">=180"
+			$('#logo_site').addClass('logo-two')
+			$('#logo_site').removeClass('logo-one')
+			$('.menu-top').css("padding-top":"5px")
+
+		else
+			console.log "<=180"
+			$('#logo_site').addClass('logo-one')
+			$('#logo_site').removeClass('logo-two')
+			$('.menu-top').css("padding-top":"125px")
