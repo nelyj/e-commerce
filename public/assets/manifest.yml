@@ -115,9 +115,9 @@ proceso.png: proceso-55d1b7ec78f1e505a535e236fd338031.png
 proceso/index.png: proceso-55d1b7ec78f1e505a535e236fd338031.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-b90c540504d1b70384063bde010eb6ce.js
-application/index.js: application-b90c540504d1b70384063bde010eb6ce.js
-application.css: application-1897505726fdc8acdd5516917fbe2ef5.css
-application/index.css: application-1897505726fdc8acdd5516917fbe2ef5.css
+application.js: application-e313bf6fde6086aea58ce25662b8c52c.js
+application/index.js: application-e313bf6fde6086aea58ce25662b8c52c.js
+application.css: application-cf78cf2d6352004e47a53bed5e9742df.css
+application/index.css: application-cf78cf2d6352004e47a53bed5e9742df.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
