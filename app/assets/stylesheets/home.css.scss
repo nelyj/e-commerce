@@ -108,7 +108,9 @@ body{
 		visibility: hidden;
 	}
 
-
+	.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+		color: black;
+	}
 
 	h3.manifesto-title{
 		font-size: 14pt;
