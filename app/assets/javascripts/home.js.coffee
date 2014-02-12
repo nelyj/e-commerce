@@ -1,4 +1,11 @@
 $(document).ready ->
+	$('.carousel').carousel()
+
+	$('.carousel').carousel
+    interval: 2000
+    pause: "hover"
+    wrap: true
+
 	$(window).scroll ->
 		if $(window).scrollTop() >= 180
 			$('#logo_site').addClass('logo-two').removeClass('logo-one')

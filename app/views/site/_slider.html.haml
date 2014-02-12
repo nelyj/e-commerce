@@ -1,2 +1,16 @@
-%ul.slider
-	Im a slider
+.row
+  .col-lg-12
+    .container
+      .slider
+        #carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
+          %ol.carousel-indicators
+            %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+            %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+            %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+          .carousel-inner
+            .item.active
+              =image_tag "http://lorempixel.com/g/1200/382/"
+            .item
+              =image_tag "http://lorempixel.com/g/1200/382/sports/"
+            .item
+              =image_tag "http://lorempixel.com/g/1200/382/"
