@@ -1,3 +1,9 @@
 [
-	{"name": "Caur", "description": "Reloj / Madera de Lenga", "id": "caur", "clase": "image-4"}
+	{
+		"name": "Caur", 
+		"description": "Reloj / Madera de Lenga", 
+		"id": "caur", 
+		"clase": "image-4",
+		"precio": "90.000"
+	}
 ]

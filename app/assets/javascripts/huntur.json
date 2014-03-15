@@ -1,3 +1,9 @@
 [
-	{"name": "Huntur", "description": "Reloj / Madera de Ulmo", "id": "huntur", "clase": "image-3"}
+	{
+		"name": "Huntur", 
+		"description": "Reloj / Madera de Ulmo", 
+		"id": "huntur", 
+		"clase": "image-3",
+		"precio": "90.000"
+	}
 ]

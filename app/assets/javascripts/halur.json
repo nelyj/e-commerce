@@ -1,3 +1,9 @@
 [
- {"name": "Halur","description": "El reloj de fuego", "id": "halur", "clase": "image-1"}
+ {
+ 	"name": "Halur",
+ 	"description": "El reloj de fuego", 
+ 	"id": "halur", 
+ 	"clase": "image-1",
+ 	"precio": "90.000"
+ }
 ]

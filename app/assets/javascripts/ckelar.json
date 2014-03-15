@@ -1,3 +1,9 @@
 [
-	{"name": "Ckelar", "description": "Reloj / Madera de Roble", "id": "ckelar", "clase": "image-2"}
+	{
+		"name": "Ckelar", 
+		"description": "Reloj / Madera de Roble", 
+		"id": "ckelar", 
+		"clase": "image-2",
+		"precio": "90.000"
+	}
 ]
