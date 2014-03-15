@@ -1,0 +1,60 @@
+<div ng-controller="ShowCtrl" class="page {{ pageClass }}" >
+	
+	<header class="navbar navbar-inverse navbar-fixed-top show-page-site" id="show-page" role="banner">
+	  <div class="container">
+	  	<nav class="collapse navbar-collapse" role="navigation">
+		  	<ul class="nav navbar-nav">
+		  		<li class="menu-top-show text-left">
+		  			<a href="#">HOME</a>
+		  		</li>
+		  		<li class="menu-top-show text-left">
+		  			<a href="#">COLECCION</a>
+		  		</li>
+		  		<li class="menu-top-show text-left">
+		  			<a href="#">FILOSOFIA</a>
+		  		</li>
+
+		  		<li class="text-center">
+		  			<a href="#" class="logo">
+		  				<div id="logo_site" class="logoTwo"></div>
+		  			</a>
+		  		</li>
+
+		  		<li class="menu-top-show text-right">
+		  			<a href="#">PROCESO</a>
+		  		</li>
+
+		  		<li class="menu-top-show text-right">
+		  			<a href="#">ESCRIBENOS</a>
+		  		</li>
+
+		  		<li class="menu-top-show text-right carro-menu">
+		  			<a href="#"><p class="carro-phare">carro de compras</p>
+		  			<div class="icono ico-carro"></div></a>
+		  		</li>
+
+		  	</ul>
+		  </nav>
+	  </div>
+	 </header>
+
+	<div class="container" id="show-site">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="text-left">Coleccion/{{product}}</p>
+				<p class="text-left">
+					<a href="#/#coleccion" class="text-left">Volver</a>
+				</p>
+			</div> 	
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				imagenes
+			</div>
+			<div class="col-md-8">
+				<h1>{{productId}}</h1>
+			</div>
+		</div>
+	</div>
+
+</div>

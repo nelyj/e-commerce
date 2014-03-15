@@ -1,0 +1,7 @@
+[
+	 {"name": "Halur",
+	"description": "El reloj de fuego", "id": "halur", "clase": "image-1"}, 
+	{"name": "CKELAR", "description": "Reloj / Madera de Roble", "id": "ckelar", "clase": "image-2"},
+	{"name": "HUNTUR", "description": "Reloj / Madera de Ulmo", "id": "huntur", "clase": "image-3"},
+	{"name": "CAUR", "description": "Reloj / Madera de Lenga", "id": "caur", "clase": "image-4"}
+]

@@ -1,0 +1,209 @@
+	<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+	  <div class="container">
+	  	<nav class="collapse navbar-collapse" role="navigation">
+		  	<ul class="nav navbar-nav">
+		  		<li class="menu-top text-left">
+		  			<a href="#">HOME</a>
+		  		</li>
+		  		<li class="menu-top text-left">
+		  			<a href="#">COLECCION</a>
+		  		</li>
+		  		<li class="menu-top text-left">
+		  			<a href="#">FILOSOFIA</a>
+		  		</li>
+
+		  		<li class="text-center">
+		  			<a href="#" class="logo">
+		  				<div id="logo_site" class="logoOne" scroll ng-class="{logoTwo:boolChangeClass}"></div>
+		  			</a>
+		  		</li>
+
+		  		<li class="menu-top text-right">
+		  			<a href="#">PROCESO</a>
+		  		</li>
+
+		  		<li class="menu-top text-right">
+		  			<a href="#">ESCRIBENOS</a>
+		  		</li>
+
+		  		<li class="menu-top text-right carro-menu">
+		  			<a href="#"><p class="carro-phare">carro de compras</p>
+		  			<div class="icono ico-carro"></div></a>
+		  		</li>
+
+		  	</ul>
+		  </nav>
+	  </div>
+	 </header>
+
+	<div id="home">
+		<div class="row">
+	 		<div class="col-md-12">
+	 			<div class="">
+	 				<div class="slider">
+	 					<div id="carousel-example-generic" class="carouse slide" data-ride="carousel">
+	 						<ol class="carousel-indicators">
+	 							<li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
+	 							<li data-slide-to="1" data-target="#carousel-example-generic"></li>
+	 							<li data-slide-to="2" data-target="#carousel-example-generic"></li>
+	 							<li data-slide-to="3" data-target="#carousel-example-generic"></li>
+	 						</ol>
+	 						<div class="carousel-inner">
+	 							<div class="item active">
+	 								<%= image_tag 'chile_nativo.png' %>
+	 							</div>
+	 							<div class="item">
+	 								<%= image_tag 'materia_prima.png' %>
+	 							</div>
+	 							<div class="item">
+	 								<%= image_tag 'swiss_movement.png' %>
+	 							</div>
+	 							<div class="item">
+	 								<%= image_tag 'unico_en_su_especie.png' %>
+	 							</div>
+	 						</div>
+	 					</div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	</div>
+
+	<div class="row">
+		<div class="container">
+			<div id="coleccion">
+				<div class="col-md-12">
+					<hr class="coleccion" />
+					<h2 class="text-center">COLECCIÓN</h2>
+					<div class="row">
+
+						<div class="col-md-3" ng-repeat="product in products">
+							<a href="#/productos/{{product.id}}">
+								<div class="{{product.clase}}">
+									<div class="content">
+										<h4>{{product.name}}</h4>
+										<p>{{product.description}}</p>
+									</div>
+								</div>
+								<p class="text-left">
+									<h4>{{product.name}}</h4>
+									<h5>{{product.description}}</h5>
+									<hr class="producto"/>
+									<div class="more">
+										+ ver más
+									</div>
+								</p>
+							</a>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="filosofia">
+			<div class="container">
+				<div class="col-md-12">
+					<hr />
+					<h2 class="text-center">FILOSOFÍA</h2>
+
+					<div class="row">
+						<div class="col-md-12">
+							<%= image_tag "filosofia.png", :class => 'filosofia' %>
+						</div>
+						<div class="col-md-5 manifesto">
+							<div class="icono ico-manifesto"></div>
+							<h3>MANIFESTO</h3>
+							<p>
+							Creemos en el cómo nuestro contexto, en especial nuestra tierra y naturaleza, es un motor para inspirar emociones que generen historias de vida y recuerdos.
+							Creemos en las historias y emociones que la naturaleza nos puede entregar, y en el cómo esto enlaza nuestras vidas.
+							Creemos en el lazo entre el hombre y la tierra, las historias que comparten y las emociones que se entregan.
+							De la mano de un diseño tradicional, la asociación con los cuna de la relojería y el apoyo de comunidades indígenas.
+							Así llegamos a Ttanti, un reloj de madera nativa chilena, el cual personifica en un solo ser los atributos necesarios para conectar a una persona con sus más emocionantes recuerdos con su tierra.							
+							</p>
+						</div>
+						<div class="col-md-7 rootandstories">
+							<h3>ROOTS & STORIES</h3>
+							<p>
+							Existe un vínculo indisoluble entre la tierra y el hombre. De la tierra venimos, y hacia allá nos dirijimos. A la tierra mágica llena de encanto, que vive hace miles de años en constante transformación, cargando con infinitas historias. Historias, mitos y leyendas pasadas de generación en generación. Ha recibido nuestros pies descalzos, ha bañado nuestros cuerpos. Vieja y sabia, tierra que respira, escupe fuego y es progenitora de majestuosas montañas. Nuestras raíces crecen profundamente en ella, desde hace miles de años, seguiremos escribiendo nuestra historia en ella por siempre.							
+							</p>
+						</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="proceso">
+			<div class="container">
+				<div class="col-md-12">
+					<hr />
+					<h2 class="text-center">PROCESO</h2>
+					<div class="row">
+						<div class="col-md-3">
+							<h5></h5>
+							<p></p>
+						</div>
+						<div class="col-md-3">
+							<h5></h5>
+							<p></p>
+						</div>
+						<div class="col-md-3">
+							<h5></h5>
+							<p></p>
+						</div>
+						<div class="col-md-3">
+							<h5></h5>
+							<p></p>
+						</div>
+					
+						<div class="col-md-12">
+							<%= image_tag 'proceso.png', :class => 'proceso' %>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="container">
+			<div class="col-md-12">
+				<hr />
+			</div>
+			<div class="col-md-3">
+				<p>
+					¡escríbenos!
+					Ttanti deals 
+					dirección 
+					comuna santiago de chile
+					<br />
+					Teléfono contacto 
+					mail
+				</p>
+			</div>
+			<div class="col-md-9"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="container">
+			<div class="container">
+				<div class="col-md-12">
+					<hr />
+				</div>
+				<div class="col-md-3">Facebook</div>
+				<div class="col-md-3">Despachamos a todo el mundo</div>
+				<div class="col-md-3">Puntos de venta</div>
+				<div class="col-md-3">Terminos & condiciones</div>
+			</div>
+		</div>
+	</div>

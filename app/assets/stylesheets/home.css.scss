@@ -1,7 +1,5 @@
 body{
-
-	padding-top: 180px;
-
+	margin-top: -40px;
 	.navbar-inverse{
 		background-color: white;
 		border: 0px solid white;
@@ -23,6 +21,9 @@ body{
 		text-decoration: none;
 	}
 
+	.mainTopScroll{
+		padding-top: 25px
+	}
 
 	.image-1, .image-2, .image-3, .image-4{
 		width: 275px;
@@ -32,8 +33,12 @@ body{
 		}
 	}
 
+	#show-site{
+		margin-top: -100px;
+	}
+
 	.image-1{
-		background: url('halur.png') no-repeat;
+		background: url('01.png') no-repeat;
 		&:hover{
 			.content{
 				background-color: rgba(255, 255, 255, 0.8);
@@ -61,7 +66,7 @@ body{
 	}
 
 	.image-2{
-		background: url('ckelar.png') no-repeat;
+		background: url('02.png') no-repeat;
 		&:hover{
 			.content{
 				background-color: rgba(255, 255, 255, 0.8);
@@ -89,8 +94,10 @@ body{
 		}
 	}
 
+
+
 	.image-3{
-		background: url('huntur.png') no-repeat;
+		background: url('03.png') no-repeat;
 		&:hover{
 			.content{
 				background-color: rgba(255, 255, 255, 0.8);
@@ -118,7 +125,7 @@ body{
 	}
 
 	.image-4{
-		background: url('caur.png') no-repeat;
+		background: url('04.png') no-repeat;
 		&:hover{
 			.content{
 				background-color: rgba(255, 255, 255, 0.8);
@@ -143,6 +150,31 @@ body{
 				}
 			}
 		}
+	}
+
+	.icono{
+		background:url('iconos.png');
+	}
+
+	.ico-manifesto{
+		width: 30px;
+		height: 30px;
+	}
+
+	.ico-carro{
+		width: 73px;
+		height: 60px;
+		float: left;
+		background-position: 343px 572px;
+		zoom: 0.46;
+	}
+
+	.carro-phare{
+		float:left;
+	}
+
+	.ico-carro{
+		float: right;
 	}
 
 	.filosofia, .proceso{
@@ -197,7 +229,10 @@ body{
 	}
 
 	.menu-top{
-		padding-top: 125px;
+		padding-top: 25px;
+	}
+	.menu-top-show{
+		padding-top: 25px;
 	}
 
 	.menu-top-scroll{
@@ -210,7 +245,7 @@ body{
 
 	ul.navbar-nav{
 		li{
-			width: 14.2%;
+			width: 14%;
 
 			a{
 				color: black;
@@ -228,9 +263,14 @@ body{
 		}
 	}
 
+	.carro-menu{
+		width: 182px !important;
+		float: right;
+	}
+
 	.slider{
 		width: 100%;
-		height: 350px;
+		height: 345px;
 		background-color: grey;
 	}
 
@@ -238,13 +278,13 @@ body{
 		width: 180px;
 	}
 
-	.logo-one{
+	.logoOne{
 		background: url('logo.svg') no-repeat;
 		width: 200px;
 		height: 150px;
 	}
 
-	.logo-two{
+	.logoTwo{
 		background: url('logos.svg') no-repeat;
 		width: 230px;
 		height: 60px;
@@ -280,4 +320,34 @@ body{
 		padding-left: 40px;
 	}
 
+}
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+#home{
+	margin-top:-35px;
+	margin-bottom: 45px;
+}
+
+header.navbar{
+	height: 80px;
+}
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
