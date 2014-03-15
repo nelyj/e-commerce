@@ -41,9 +41,10 @@ body{
 
 	.image-1{
 		background: url('01.png') no-repeat;
+
 		&:hover{
 			.content{
-				background-color: rgba(255, 255, 255, 0.8);
+				background: rgba(255, 255, 255, 0.8);
 				display: block;
 				width: 275px;
 				height: 278px;
