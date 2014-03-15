@@ -12,5 +12,6 @@ appCtrl.controller 'ShowCtrl', ['$scope','$routeParams', '$http', ($scope,$route
 	$scope.pageClass = 'page-show'
 
 	$http.get('/products/'+$routeParams.productId+'.json').success (data) ->
-		$scope.product = data
+		$scope.product = data[0]
+
 ]
