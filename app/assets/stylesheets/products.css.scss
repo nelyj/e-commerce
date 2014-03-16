@@ -47,9 +47,18 @@
 	}
 
 	ul{
+		list-style: none;
 		float:left;
+		position: absolute;
+		margin-left: 9.5em;
+		color: white;
+		font-weight: 300;
 		li{
+			background-color:#6365A0;
+			text-align: center;
 			text-transform: uppercase;
+			margin: 2px 0px;
+			padding: 5px 15px;
 		}
 	}
 }
