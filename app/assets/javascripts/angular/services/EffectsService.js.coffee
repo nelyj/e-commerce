@@ -11,4 +11,3 @@ effectService.directive "scroll", ($window) ->
       return
 
     return
-

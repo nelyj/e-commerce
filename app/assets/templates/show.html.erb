@@ -57,7 +57,12 @@
 				<hr />
 				<strong class="precio_producto">&#36;{{product.precio}}</strong>
 				<div class="agregar_carro">
-					<a href="#"> + Agregar al carro</a>
+					<a ng-click="showMenu=true" ng-class=""> + Agregar al carro</a>
+					<ul>
+						<li>Seguir Paseando</li>
+						<li>Volver a colecciones</li>
+						<li>Ir al carro de compras</li>
+					</ul>
 				</div>
 				<hr />
 				<div class="detalles_producto">
@@ -66,6 +71,7 @@
 						<li>{{detalle}}</li>
 					</ul>
 				</div>
+				<hr />
 			</div>
 		</div>
 	</div>

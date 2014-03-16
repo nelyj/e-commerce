@@ -34,11 +34,23 @@
 }
 
 .agregar_carro{
+	margin-bottom: 3em;
 	a{
 		color: #6365A0;
 		font-weight: 500;
 		text-transform: uppercase;
 		font-size: 1em;
+		float:left;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+
+	ul{
+		float:left;
+		li{
+			text-transform: uppercase;
+		}
 	}
 }
 
@@ -55,3 +67,5 @@
 		}
 	}
 }
+
+
