@@ -47,6 +47,7 @@
 	}
 
 	ul{
+		display: none;
 		list-style: none;
 		float:left;
 		position: absolute;
@@ -54,6 +55,8 @@
 		color: white;
 		font-weight: 300;
 		li{
+			cursor: pointer; 
+			cursor: hand;
 			background-color:#6365A0;
 			text-align: center;
 			text-transform: uppercase;
@@ -61,6 +64,10 @@
 			padding: 5px 15px;
 		}
 	}
+}
+
+.showUl{
+	display: block !important;
 }
 
 .detalles_producto{
