@@ -5,7 +5,7 @@
 //= require_tree ./angular/controllers
 //= require_tree ./angular/services
 
-app = angular.module('E-commerce', ['ngRoute','ngAnimate', 'EffectsService','appCtrl'])
+app = angular.module('E-commerce', ['ngRoute','ngAnimate', 'EffectsService','appCtrl','LocalStorageModule'])
 
 
 app.config ["$routeProvider", "$locationProvider", ($routeProvider, $locationProvider) -> 

@@ -16,3 +16,4 @@
 //= require home
 //= require angular
 //= require e-commerce
+//= require angular-local-storage	

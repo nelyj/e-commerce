@@ -29,7 +29,8 @@
 		  		</li>
 
 		  		<li class="menu-top-show text-right carro-menu">
-		  			<a href="#"><p class="carro-phare">carro de compras</p>
+		  			<a href="#"><p class="carro-phare {{showProductos}}">carro de compras</p>
+		  			<p class="phrase_exist_product {{existeProductos}}">{{carro_de_compras}} productos</p>
 		  			<div class="icono ico-carro"></div></a>
 		  		</li>
 
@@ -59,8 +60,8 @@
 				<div class="agregar_carro">
 					<a ng-click="click_agregar()"> + Agregar al carro</a>
 					<ul class="{{activo}}">
-						<li ng-click="click_agregar()">Seguir Paseando</li>
-						<li>Volver a colecciones</li>
+						<li ng-click="continuar_navegando()">Seguir Paseando</li>
+						<li ng-click="go('/')">Volver a colecciones</li>
 						<li>Ir al carro de compras</li>
 					</ul>
 				</div>
