@@ -1,6 +1,6 @@
 effectService = angular.module('EffectsService',[])
 
-effectService.directive "scroll", ($window) ->
+effectService.directive "scroll", ['$window', ($window) ->
   (scope, element, attrs) ->
     angular.element($window).bind "scroll", ->
       if @pageYOffset >= 10
@@ -9,5 +9,4 @@ effectService.directive "scroll", ($window) ->
         scope.boolChangeClass = false
       scope.$apply()
       return
-
-    return
+]
