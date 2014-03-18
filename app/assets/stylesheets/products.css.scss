@@ -80,7 +80,6 @@
 	float: left;
 }
 
-
 .detalles_producto{
 	h4{
 		font-size: 1em;
@@ -95,4 +94,20 @@
 	}
 }
 
+.menu-pago{
+	margin-top:1.17em;
+	list-style-type: none;
+	li{
+		background-color: rgba(99, 101, 160, 0.8);
+		width: 100% !important;
+		text-align: left;
+		padding: 0.6em;
+		color:white;
+		margin-top: 0.09em;
+	}
+}
+
+.menu-pago-link{
+	margin-left: -6em;
+}
 

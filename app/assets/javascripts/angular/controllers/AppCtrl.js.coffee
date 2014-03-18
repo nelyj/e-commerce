@@ -27,6 +27,8 @@ appCtrl.controller 'HomeCtrl', ['$scope', '$http','localStorageService', ($scope
 ]
 
 appCtrl.controller 'ShowCtrl', ['$scope','$routeParams', '$http', '$location','$rootScope','localStorageService', ($scope,$routeParams, $http, $location,$rootScope,localStorageService) ->
+	$scope.items = []
+
 	$scope.pageClass = 'page-show'
 	$rootScope.showProductos = ""
 	if localStorageService.get('total_item')?
@@ -50,15 +52,30 @@ appCtrl.controller 'ShowCtrl', ['$scope','$routeParams', '$http', '$location','$
 	$scope.click_agregar = ->
 
 		if localStorageService.get('total_item')?
+			$scope.aux = localStorageService.get('items')
+			$scope.aux.push
+				name: $scope.product.name
+				description: $scope.product.description
+				precio: $scope.product.precio
+
+			localStorageService.add('items', $scope.aux)
 			numero = parseInt(localStorageService.get('total_item'), 10)
 			$scope.carro_de_compras = numero + 1
 			localStorageService.add('total_item', $scope.carro_de_compras)
+			console.log localStorageService.get('items')
+
 		else
-			$scope.carro_de_compras = 1
+			$scope.aux = []
+			$scope.aux.push
+				name: $scope.product.name
+				description: $scope.product.description
+				precio: $scope.product.precio
+
 			localStorageService.add('total_item', 1)
-
-		
-
+			localStorageService.add('items', $scope.aux)
+			console.log localStorageService.get('items')
+			
+	
 		if $scope.carro_de_compras <= 0
 			localStorageService.add('clase_productos','')
 			localStorageService.add('existe_producto','hideProduct')
@@ -88,6 +105,12 @@ appCtrl.controller 'ShowCtrl', ['$scope','$routeParams', '$http', '$location','$
 	$scope.go = (path) ->
   	$location.path path
   	return
+
+  $scope.add_item = ->
+  	$scope.items.push
+  		name: $scope.product.name
+  		description: $scope.product.description
+  		precio: $scope.product.precio
 
 
 	$http.get('/products/'+$routeParams.productId+'.json').success (data) ->
